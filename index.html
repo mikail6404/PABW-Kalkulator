@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Kalkulator</title>
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <h1>Kalkulator</h1>
-    <img src="images/calculator-icon.png" alt="">
+    <img src="images/calculator-icon.png" alt="" />
 
     <p>Program Kalkulator Sederhana</p>
 
-    <ul> <!-- changed to list in the tutorial -->
+    <ul>
+      <!-- changed to list in the tutorial -->
       <li>Penambahan (+)</li>
       <li>Pengurangan (-)</li>
       <li>Perkalian (*)</li>
@@ -20,11 +25,22 @@
       <li>Modulus (%)</li>
     </ul>
 
-    <h2>Muhammad Mikail
-      <br>
+    <h2>
+      Muhammad Mikail
+      <br />
       6701223002
     </h2>
 
     <p>Repository GitHub dapat diakses melalui <a href="">link berikut</a>.</p>
+    <script>
+      const operator = prompt(
+        "Masukkan simbol operasi yang ingin dilakukan (+, -, *, /, atau % ): "
+      );
+
+      const number1 = parseFloat(prompt("Masukkan angka pertama: "));
+      const number2 = parseFloat(prompt("Masukkan angka kedua: "));
+
+      let result;
+    </script>
   </body>
 </html>
